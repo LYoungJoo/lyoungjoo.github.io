@@ -68,7 +68,7 @@ ga_domain: lyoungjoo.github.io
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "pwnable，reversing，ctf，bug hunting"
+sidebar-about-description: "pwnable, reversing, ctf, bug hunting"
 sidebar-avatar: /img/avatar.jpeg    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
