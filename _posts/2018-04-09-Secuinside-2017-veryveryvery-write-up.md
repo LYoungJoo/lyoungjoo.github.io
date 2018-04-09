@@ -2,7 +2,7 @@
 layout:     post
 title:      "Secuinside 2017 VeryVeryVery write-up"
 subtitle:   "secuinside 2017 pwnable"
-date:       2018-02-15
+date:       2018-04-09
 author:     "NextLine"
 header-img: "img/post-bg-3.png"
 tags:
