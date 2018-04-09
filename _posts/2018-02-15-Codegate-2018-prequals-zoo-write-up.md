@@ -9,7 +9,7 @@ tags:
     - WriteUp
 ---
 
-# Codegate 2017 Zoo Write Up
+# Codegate 2018 prequals zoo write-up
 
 ### 1. Intro
 
