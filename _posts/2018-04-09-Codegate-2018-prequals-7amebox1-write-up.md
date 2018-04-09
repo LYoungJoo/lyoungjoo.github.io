@@ -4,7 +4,7 @@ title:      "Codegate 2018 7amebox1 write-up"
 subtitle:   "codegate 2018 prequals pwnable"
 date:       2018-02-15
 author:     "NextLine"
-header-img: "img/post-bg-2.png"
+header-img: "img/post-bg-3.png"
 tags:
     - WriteUp
 ---
