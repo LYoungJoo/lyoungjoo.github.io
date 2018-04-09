@@ -65,6 +65,7 @@ unsafe ulink에 대한 이해도를 높이는데 많은 도움을 주었다.
       read(0, (*(*&a1->name[8 * (animal_idx + 2LL)] + 8 * (food_cnt + 2LL) + 8) + 16LL), 8uLL);
       printf("[+] Please tell me a description of this medicine\n>> ");
       read(0, (*(*&a1->name[8 * (animal_idx + 2LL)] + 8 * (food_cnt + 2LL) + 8) + 24LL), 0x78uLL);// heap_overflow
+      
       ...
 ```
 
