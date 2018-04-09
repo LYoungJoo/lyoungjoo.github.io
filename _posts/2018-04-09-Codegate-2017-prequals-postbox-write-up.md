@@ -21,21 +21,18 @@ tags:
 static 바이너리라 ida FLIRT를 이용해 심볼을 복구해서 봤다.
 
 Register / Un-Register / Edit -> Register
-
 - name + "\x00" (12 byte)
 - phone + "\x00" (15 byte)
 - zipcode + "\x00" (7 byte)
 - address + "\x00" (90 byte)
 
 Register / Un-Register / Edit -> Edit
-
 - name + "\x00" (11 byte)
 - phone + "\x00" (15 byte)
 - zipcode + "\x00" (6 byte)
 - address + "\x00" (96 byte)
 
 Create
-
 - kind - atoi(64byte)
 - price - atoi(128byte) (max : 1000000)
 - info + "\x00" (11 byte)
@@ -46,7 +43,6 @@ Create
 - payment - atoi (4 byte)
 
 Change
-
 - name + "\x00" (11 byte)
   - summary : ' to '를 찾아서 거기서부터 10바이트 붙여넣음.
 - phone + "\x00" (15 byte)
@@ -55,7 +51,6 @@ Change
 - payment - atoi(4 byte)
 
 0x4009d0 (이건 함수하나에 대해 분석)
-
 - malloc(40) - box
 - box -> manage =malloc(0x300)
 - box -> chunk_size = 0x300
