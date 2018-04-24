@@ -13,7 +13,7 @@ tags:
 
 ### Info
 
-![ScoreBoard](https://github.com/LYoungJoo/lyoungjoo.github.io/blob/master/img/in-post/timisoaractf2018/board.png)
+![ScoreBoard](/img/in-post/timisoaractf2018/board.png)
 Nickname : NextLine<br>
 Rank : 2
 
