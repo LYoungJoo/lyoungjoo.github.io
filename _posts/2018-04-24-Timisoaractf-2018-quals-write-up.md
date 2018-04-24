@@ -21,7 +21,7 @@ Rank : 2
 
 ### Math Exam (rev - 150pts)
 
-```c
+```python
 from z3 import *
 
 pw = [0 for i in range(30)]
