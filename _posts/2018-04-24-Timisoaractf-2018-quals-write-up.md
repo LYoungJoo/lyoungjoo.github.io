@@ -127,32 +127,30 @@ for i in range(12):
 			print "Val : " + hex(val)
 			break
             
-'''
-FIND : 95a196021fa4e9574cd821c9d0ba041f
-Val : 0x68
-FIND : 5795b8d6e2435c5ecdac54375166b544
-Val : 0x61
-FIND : 5cc3e196973fbb79c9aa4e18027f866b
-Val : 0x70
-FIND : fcc149646e5d3879134804646da90cea
-Val : 0x70
-FIND : 484ec01fb9e6449c0d80a716077702d1
-Val : 0x79
-FIND : 73c0dc9db84acd0c336522043b6fd4e3
-Val : 0x68
-FIND : b466c3a7d2618bf6f61c6077e3bd6aa0
-Val : 0x61
-FIND : e73273179f206a7db0d6960e96b84b82
-Val : 0x63
-FIND : 01a3e2b4e7523506929b4e3f3ad6dbbb
-Val : 0x6b
-FIND : bca5b1b2c5716cfd2c2e94cc07c26029
-Val : 0x69
-FIND : 7339e454bbe37d732026780d70d87c9a
-Val : 0x6e
-FIND : b5490761c3a6641e8f54de6a47a35eed
-Val : 0x67
-'''
+# FIND : 95a196021fa4e9574cd821c9d0ba041f
+# Val : 0x68
+# FIND : 5795b8d6e2435c5ecdac54375166b544
+# Val : 0x61
+# FIND : 5cc3e196973fbb79c9aa4e18027f866b
+# Val : 0x70
+# FIND : fcc149646e5d3879134804646da90cea
+# Val : 0x70
+# FIND : 484ec01fb9e6449c0d80a716077702d1
+# Val : 0x79
+# FIND : 73c0dc9db84acd0c336522043b6fd4e3
+# Val : 0x68
+# FIND : b466c3a7d2618bf6f61c6077e3bd6aa0
+# Val : 0x61
+# FIND : e73273179f206a7db0d6960e96b84b82
+# Val : 0x63
+# FIND : 01a3e2b4e7523506929b4e3f3ad6dbbb
+# Val : 0x6b
+# FIND : bca5b1b2c5716cfd2c2e94cc07c26029
+# Val : 0x69
+# FIND : 7339e454bbe37d732026780d70d87c9a
+# Val : 0x6e
+# FIND : b5490761c3a6641e8f54de6a47a35eed
+# Val : 0x67
 ```
 
 - bp.py
@@ -473,11 +471,9 @@ from pwn import *
 
 #s = process('./heapschool2')
 s = remote('89.38.210.128',1340)
-'''
-b = BP(s)
-b.bp('tracemalloc on')
-b.done()
-'''
+# b = BP(s)
+# b.bp('tracemalloc on')
+# b.done()
 
 l = ELF('./libc.so.6')
 
