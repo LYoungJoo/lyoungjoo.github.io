@@ -4,7 +4,7 @@ title:      "Timisoaractf 2018 quals Write Up"
 subtitle:   "Timisoaractf 2018 quals pwnable/reversing"
 date:       2018-04-24
 author:     "NextLine"
-header-img: "img/post-bg-4.png"
+header-img: "img/post-bg-4.jpg"
 tags:
     - WriteUp
 ---
