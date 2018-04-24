@@ -252,12 +252,10 @@ for i in mypermuatation:
 	else :
 		s.close()
 
-'''
-FIND : nhnewfhetkmdcdyamgeczihldazjcnhhqtjylumfvlrgmhasbwjqvanafylzyemlopqosj
-FLAG : Congrats. If that is the correct input you will now get a flag
-If all you see is garbage, try a different one
-timctf{7dfadd1ee67a9c516c9efbf8f0cf43f4}
-'''
+# FIND : nhnewfhetkmdcdyamgeczihldazjcnhhqtjylumfvlrgmhasbwjqvanafylzyemlopqosj
+# FLAG : Congrats. If that is the correct input you will now get a flag
+# If all you see is garbage, try a different one
+# timctf{7dfadd1ee67a9c516c9efbf8f0cf43f4}
 ```
 
 
