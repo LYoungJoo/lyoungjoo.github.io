@@ -14,9 +14,9 @@ tags:
 ### info
 
 ![ScoreBoard](/img/in-post/asisctf/ScoreBoard.png)
-Nickname : AshuuLee
-Rank : 16
-I solved all challs about pwnable and reversing.
+Nickname : AshuuLee<br>
+Rank : 16<br>
+I solved all challs about pwnable and reversing.<br>
 
 
 ### Cat (67 pts)
