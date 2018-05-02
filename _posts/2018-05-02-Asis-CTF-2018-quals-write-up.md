@@ -4,7 +4,7 @@ title:      "ASIS CTF 2018 quals Write Up"
 subtitle:   "Asis CTF 2018 quals pwnable/reversing"
 date:       2018-04-24
 author:     "NextLine"
-header-img: "img/post-bg-5.jpg"
+header-img: "img/post-bg-6.jpg"
 tags:
     - WriteUp
 ---
