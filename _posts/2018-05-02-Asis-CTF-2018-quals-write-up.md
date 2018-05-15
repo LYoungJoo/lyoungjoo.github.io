@@ -9,7 +9,7 @@ tags:
     - WriteUp
 ---
 
-# 2018 ASIS CTF quasl Write Up
+# 2018 ASIS CTF quals Write Up
 
 ### info
 
