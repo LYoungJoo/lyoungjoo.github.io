@@ -9,18 +9,15 @@ tags:
     - WriteUp
 ---
 
-# 2018 Defcon quals note oriented programming
+# 2018 Defcon quals note oriented programming write up
 
 ### 1. Introduce
-
 쉘코딩은 언제나 즐거운데 대회때 SROP를 제대로 모르고 풀려고 해서 못풀었다.. 대회끝나자마자 SROP 포기하고 다른 가젯 이용해서 풀 수 있었다.
 
 
 
 ### 2. Exploit
-
-note로 쉘코딩을 할 수 있었는데, A0 ~ G#9까지 사용할 수 있다. 쉘코딩을 할때 esi, edi, ebp, esp는 남아있어서 이것들을 이용해서 풀 수 있었다.
-
+note로 쉘코딩을 할 수 있었는데, A0 ~ G#9까지 사용할 수 있다. 쉘코딩을 할때 esi, edi, ebp, esp는 남아있어서 이것들을 이용해서 풀 수 있었다.<br>
 1. 스택에 0x60606600을 만듬.
 2. and esi, [esi]를 통해 esi를 0x60606600으로 만듬. (이때 and라 확정적으로 값이 옮겨지는게 아니라서 브포가 필요함)
 3. esi를 통해서 pop ecx와 pop edx를 넣어줌.
