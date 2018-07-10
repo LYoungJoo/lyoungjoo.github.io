@@ -105,7 +105,7 @@ Func들도 전부 간단하게되어있다. (하지만 실제로 이코드도 so
 
 
 
-``` C#
+``` c#
 // WCTF2018Rev.Properties.Resources
 // Token: 0x0600000A RID: 10 RVA: 0x00002314 File Offset: 0x00000514
 unsafe static Resources()
@@ -338,17 +338,13 @@ Func5
 
 
 
-$ \begin{bmatrix}x & x1 & x2 &x3 & .. &x31 \end{bmatrix}$$ \begin{bmatrix}a & a1  & a2 &.. & a31 \\\ a32 & a33  & a34 &.. & a63   \\\ .. \\\ a992 & a993  & a994 &.. & a1023 \end{bmatrix}$
+![ScoreBoard](/img/in-post/wctf/ex1.png)
 
 
 
 위처럼 행렬곱이 발생하므로 input을 X 곱하는 행렬을 A라고하면 아래와 같다.
 
-$X * A = B$  
-
-$X * A * A^{-1} = B * A^{-1}$ 
-
-$X = B * A^{-1}$
+![ScoreBoard](/img/in-post/wctf/ex2.png)
 
 이런식의 역연산을 그대로 코드로 짜주면 된다.
 
