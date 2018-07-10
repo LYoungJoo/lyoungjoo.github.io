@@ -4,7 +4,7 @@ title:      "WCTF 2018 truth write-up"
 subtitle:   "WCTF 2018 reversing"
 date:       2018-07-10
 author:     "NextLine"
-header-img: "img/post-bg-2.png"
+header-img: "img/post-bg-3.png"
 tags:
     - WriteUp
 ---
