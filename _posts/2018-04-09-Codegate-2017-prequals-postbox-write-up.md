@@ -4,7 +4,7 @@ title:      "Codegate 2017 postbox write-up"
 subtitle:   "codegate 2017 prequals pwnable"
 date:       2018-04-09
 author:     "NextLine"
-header-img: "img/post-bg-1.png"
+header-img: "img/post-bg-2.png"
 tags:
     - WriteUp
 ---

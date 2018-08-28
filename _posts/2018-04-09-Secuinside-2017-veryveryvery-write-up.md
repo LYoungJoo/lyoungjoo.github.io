@@ -4,7 +4,7 @@ title:      "Secuinside 2017 VeryVeryVery write-up"
 subtitle:   "secuinside 2017 pwnable"
 date:       2018-04-09
 author:     "NextLine"
-header-img: "img/post-bg-3.png"
+header-img: "img/post-bg-1.jpg"
 tags:
     - WriteUp
 ---
