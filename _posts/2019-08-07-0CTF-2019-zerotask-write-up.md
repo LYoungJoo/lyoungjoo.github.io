@@ -9,7 +9,7 @@ tags:
     - WriteUp
 ---
 
-# Codegate 2018 prequals zoo write-up
+# 0CTF 2019 zerotask write-up
 
 ### 1. Intro
 
