@@ -25,9 +25,9 @@ tags:
 Choice: 
 ```
 
-1 : `EVP_CIPHER_CTX_new`와 `EVP_EncryptInit`를 호출하고 데이터를 저장한다.
-2 : 1에서 만든 청크를 free한다.
-3 : 1에서 만든 청크의 데이터를 encrypt/decrypt해서 보여준다.
+1. `EVP_CIPHER_CTX_new`와 `EVP_EncryptInit`를 호출하고 데이터를 저장한다.
+2. 1에서 만든 청크를 free한다.
+3. 1에서 만든 청크의 데이터를 encrypt/decrypt해서 보여준다.
 
 
 ### 3. Vulnerability
