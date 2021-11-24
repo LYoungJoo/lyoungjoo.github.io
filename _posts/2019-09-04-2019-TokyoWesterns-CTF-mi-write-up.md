@@ -35,6 +35,7 @@ tags:
 사실 이 문제는 바이너리가 중요한게 아니라 mimalloc이 중요하다. mimalloc의 경우 https://github.com/microsoft/mimalloc 에서 확인할 수 있다. 또한 https://www.microsoft.com/en-us/research/uploads/prod/2019/06/mimalloc-tr-v1.pdf 이 문서도 mimalloc을 전반적으로 이해하는데 큰 도움을 주었다.
 
 ### Exploit
+![IMG_4667](/img/in-post/mi.png)
 
 문서를 참고하면 전체 heap layout에 대해 이해할 수 있는데 이걸 보면서 exploit idea를 생각했다. 이미 바이너리에서 heap overflow, use-after-free, double free 등 heap에서 발생할 수 있는 대부분의 버그들을 사용할 수 있었기 때문에 이것을 통해 어떻게 exploit을 할지 생각해야했다.
 
